@@ -1,4 +1,4 @@
-# Aspire.Hosting.Structurizr library
+# Aspire.Hosting.Structurizr
 
 Provides extension methods and resource definitions for a .NET Aspire AppHost to configure a Structurizr resource.
 
