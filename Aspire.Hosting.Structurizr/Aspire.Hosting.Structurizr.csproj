@@ -8,11 +8,14 @@
     
     <PropertyGroup>
         <PackageId>Shahab.Aspire.Hosting.Structurizr</PackageId>
-        <Version>8.0.0-beta</Version>
+        <Version>8.0.0-beta.2</Version>
         <PackageTags>aspire hosting Structurizr</PackageTags>
         <Description>Structurizr support for .NET Aspire.</Description>
-        <PackageIconFullPath>Structurizr.558x447.png</PackageIconFullPath>
+        <PackageIcon>Structurizr.558x447.png</PackageIcon>
         <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <RepositoryUrl>https://github.com/shahabganji/Aspire.Hosting.Structurizr</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/shahabganji/Aspire.Hosting.Structurizr</PackageProjectUrl>
         <Authors>Shahab Ganji</Authors>
     </PropertyGroup>
 
@@ -30,7 +33,8 @@
 
     <ItemGroup>
         <None Include="../README.md" Pack="true" PackagePath="\"/>
-        <None Include="../LICENSE" Pack="true" PackagePath="\"/>
+        <None Include="../LICENSE" Pack="true" PackagePath=""/>
+        <None Include="Structurizr.558x447.png" Pack="true" PackagePath=""/>
     </ItemGroup>
 
 </Project>

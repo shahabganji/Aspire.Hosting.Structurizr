@@ -9,7 +9,7 @@ Provides extension methods and resource definitions for a .NET Aspire AppHost to
 In your AppHost project, install the .NET Aspire Structurizr Hosting library with [NuGet](https://www.nuget.org):
 
 ```dotnetcli
-dotnet add package Aspire.Hosting.Structurizr
+dotnet add package Shahab.Aspire.Hosting.Structurizr
 ```
 
 ## Usage example
