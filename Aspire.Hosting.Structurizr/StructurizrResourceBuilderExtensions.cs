@@ -24,7 +24,7 @@ public static class StructurizrResourceBuilderExtensions
 #pragma warning disable RS0016 // Add public types and members to the declared API
     public static IResourceBuilder<StructurizrResource> AddStructurizr(
 #pragma warning restore RS0016 // Add public types and members to the declared API
-        this IDistributedApplicationBuilder builder, string name, int httpPort = StructurizrResource.DefaultPortNumber,
+        this IDistributedApplicationBuilder builder, string name, int? httpPort,
         string? bindPath = null)
     {
         var resource = new StructurizrResource(name);
